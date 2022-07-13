@@ -12,4 +12,4 @@ jobs:
       with:
         image-tag: "sysdiglabs/dummy-vuln-app:latest"
         sysdig-secure-token: ${{ secrets.SYSDIG_SECURE_TOKEN }}
-        sysdig-secure-url: "ingest-us2.app.sysdig.com"
+        sysdig-secure-url: "https://ingest-us2.app.sysdig.com"
